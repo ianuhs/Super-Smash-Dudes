@@ -1,8 +1,4 @@
 
-/* JumpingExample
-	 * Desc: Demonstrates how to simulate gravity and implement jumping
-	 * @author ICS3U
-	 */
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
