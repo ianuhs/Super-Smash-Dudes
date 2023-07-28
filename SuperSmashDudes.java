@@ -206,12 +206,12 @@ public class SuperSmashDudes {
 	        gameWindow.setSize(WIDTH,HEIGHT);
 	        gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			try {
-				background = ImageIO.read(new File("/Users/ianfong/Desktop/Ian/smash/backbros.png")); //use your own file
-				cannonball = ImageIO.read(new File("/Users/ianfong/Desktop/Ian/smash/cannonball.png"));
-				therock = ImageIO.read(new File("/Users/ianfong/Desktop/Ian/smash/therock.png"));
-				kevinhart = ImageIO.read(new File("/Users/ianfong/Desktop/Ian/smash/kevinhart.png"));
-				punchLeft = ImageIO.read(new File("/Users/ianfong/Desktop/Ian/smash/leftpunch.png"));
-				punchRight = ImageIO.read(new File("/Users/ianfong/Desktop/Ian/smash/punch.png"));
+				background = ImageIO.read(new File("backbros.png")); //donwload files and copy pathname of image and put it between quotations 
+				cannonball = ImageIO.read(new File("cannonball.png"));
+				therock = ImageIO.read(new File("therock.png"));
+				kevinhart = ImageIO.read(new File("kevinhart.png"));
+				punchLeft = ImageIO.read(new File("leftpunch.png"));
+				punchRight = ImageIO.read(new File("punch.png"));
 			} catch (IOException e) {
 				
 				e.printStackTrace();
