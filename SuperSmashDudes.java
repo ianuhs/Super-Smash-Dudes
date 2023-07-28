@@ -190,7 +190,7 @@ public class SuperSmashDudes {
 	    public static void main(String[] args) {
 	    	
 	    	 try {
-		    		File audioFile = new File ("/Users/ianfong/Downloads/Smash Theme.wav");
+		    		File audioFile = new File ("Smash Theme.wav"); //download audio file and copy pathname to quotations
 		    		audioStream = AudioSystem.getAudioInputStream(audioFile);
 		    		music = AudioSystem.getClip();
 		    		music.open(audioStream);
@@ -202,7 +202,7 @@ public class SuperSmashDudes {
 	        gameWindow.setSize(WIDTH,HEIGHT);
 	        gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			try {
-				background = ImageIO.read(new File("backbros.png")); //donwload files and copy pathname of image and put it between quotations 
+				background = ImageIO.read(new File("backbros.png")); //donwload files and copy pathname of image to quotations
 				cannonball = ImageIO.read(new File("cannonball.png"));
 				therock = ImageIO.read(new File("therock.png"));
 				kevinhart = ImageIO.read(new File("kevinhart.png"));
